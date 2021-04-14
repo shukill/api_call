@@ -66,19 +66,19 @@ class _SingleUserScreenState extends State<SingleUserScreen> {
                     children: [
                       ListTile(
                         title: Text('Provider Name'),
-                        subtitle: Text("Hello, ${user.provider_name}"),
+                        subtitle: Text("${user.provider_name}"),
                       ),
                       ListTile(
                         title: Text('Provider Email'),
-                        subtitle: Text("Hello, ${user.provider_email}"),
+                        subtitle: Text("${user.provider_email}"),
                       ),
                       ListTile(
                         title: Text('Start Date'),
-                        subtitle: Text("Hello, ${user.start_date}"),
+                        subtitle: Text("${user.start_date}"),
                       ),
                       ListTile(
                         title: Text('Provider Phone'),
-                        subtitle: Text("Hello, ${user.provider_phone}"),
+                        subtitle: Text("${user.provider_phone}"),
                       ),
                     ],
                   ),
